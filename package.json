@@ -12,6 +12,9 @@
     "typescript": "^2.2.1"
   },
   "jest": {
+    "globals": {
+      "__TS_CONFIG__": "tsconfig-jest.json"
+    },
     "cacheDirectory": "./tmp",
     "moduleNameMapper": {
       "\\.(css)$": "<rootDir>/tools/stubProxy.ts"
