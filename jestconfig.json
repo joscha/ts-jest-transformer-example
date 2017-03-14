@@ -4,7 +4,8 @@
     },
     "cacheDirectory": "./tmp",
     "moduleNameMapper": {
-        "\\.(css)$": "<rootDir>/tools/stubProxy.ts"
+        "\\.(txt)$": "<rootDir>/tools/stubProxy.ts",
+        "\\.(css)$": "<rootDir>/tools/identityProxy.ts"
     },
     "transform": {
         "\\.(svg)$": "<rootDir>/tools/fileTransformer.js",

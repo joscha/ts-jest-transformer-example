@@ -8,6 +8,7 @@
     "test": "jest --config=jestconfig.json"
   },
   "devDependencies": {
+    "identity-obj-proxy": "^3.0.0",
     "jest": "^19.0.2",
     "ts-jest": "^19.0.0",
     "typescript": "^2.2.1"
