@@ -1,5 +1,5 @@
 const path = require('path');
-const TsJestTransformer = require('./TsJestTransformer');
+const TsJestTransformer = require('ts-jest-transformer');
 
 class FileTransformer extends TsJestTransformer {
   process(src, filename, config, options) {

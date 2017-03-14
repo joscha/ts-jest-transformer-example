@@ -2201,9 +2201,13 @@ trim-right@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/trim-right/-/trim-right-1.0.1.tgz#cb2e1203067e0c8de1f614094b9fe45704ea6003"
 
-ts-jest@^19.0.0:
-  version "19.0.0"
-  resolved "https://registry.yarnpkg.com/ts-jest/-/ts-jest-19.0.0.tgz#b1005f06dd3338681e9f0227ea8c014b26735287"
+ts-jest-transformer@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/ts-jest-transformer/-/ts-jest-transformer-1.0.0.tgz#fa46f79759eb02b195c3c0be74dc44842c8b55e3"
+
+ts-jest@^19.0.1:
+  version "19.0.1"
+  resolved "https://registry.yarnpkg.com/ts-jest/-/ts-jest-19.0.1.tgz#d906b8538d0563d9e10d4edeb93ec9e5e00100a5"
   dependencies:
     glob-all "^3.1.0"
     istanbul-lib-instrument "^1.2.0"

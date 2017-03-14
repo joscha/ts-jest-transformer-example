@@ -7,7 +7,7 @@ It also shows especially how this works when there is a custom tsconfig to be us
 ## Examples
 
 Have a look at
-* `./tools/fileTransformer.js` to see how to write a transformer
+* `./tools/fileTransformer.js` to see how to write a transformer using [`ts-jest-transformer`](https://github.com/joscha/ts-jest-transformer)
 * `./tools/stubProxy.ts` to see how to write a module mapper
 * `./tools/identityProxy.ts` to see how to use the `identity-obj-proxy` in a module mapper
 
