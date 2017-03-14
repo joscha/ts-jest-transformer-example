@@ -3,9 +3,9 @@ const TsJestTransformer = require('./TsJestTransformer');
 
 class FileTransformer extends TsJestTransformer {
   process(src, filename, config, options) {
-    // write TS here
+    // Important: write TS here
     const source = 'export default ' + JSON.stringify(path.basename(filename)) + ';';
-    return super.process(source, filename);
+    return super.process(source, filename, config, options);
   }
 }
 
