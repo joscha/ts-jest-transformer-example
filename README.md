@@ -1,5 +1,7 @@
 # Example: Custom transformer & module mapper with jest & ts-jest
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/joscha/ts-jest-transformer-example.svg)](https://greenkeeper.io/)
+
 This repository shows how to use custom transformers and module mappers with [jest](https://facebook.github.io/jest/) when using [ts-jest](https://github.com/kulshekhar/ts-jest).
 
 It also shows especially how this works when there is a custom tsconfig to be used for the test environment.
